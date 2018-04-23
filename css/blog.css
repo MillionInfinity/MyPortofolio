@@ -1,0 +1,26 @@
+ h1{
+     position: relative;
+    top: 385px; 
+    left:40%;
+}
+/* .main-header {
+display: inline;
+} */
+
+ #demo {
+     color: black;
+     position: absolute;
+     left: 250px;
+     top: 300px;
+     z-index: 25;
+     font-size: 120px;
+     margin: 200px;
+ }
+ h3{
+     
+     position: absolute;
+     left:590px;
+     top:140px;
+      z-index: 25;
+      font-size: 90px;
+ }

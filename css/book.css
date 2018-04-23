@@ -1,0 +1,138 @@
+ /* body {
+     background-color: #92bde7;
+     color: #fff;
+    outline: 0;
+  transition: background-color 2s ease-out;
+
+} */
+body {
+    background:#BDBDBD;
+    color: #757575;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1em;
+}
+.main-header li{
+    display:inline;
+    margin-right:85px;
+    top:-90px;
+    position: relative;
+    left:100%;
+}
+.main-footer{
+    position: absolute;
+    left:45%;
+    top:92%;
+}
+/* .main-footer span{
+    text-align: center;
+    margin-left:90px;
+    padding-bottom: 25px;
+} */
+.main-footer li{
+    display: inline;
+    margin-right:25px;
+   
+}
+h1{
+    margin-top:2.5em;
+    margin-left: -40px;
+    font-size: 4.5em;
+    display: inline;
+}
+.col-4{
+    margin-top: 5%;
+    margin-left:15px;
+}
+.text-photo{
+    font-size: 1.5em;
+    margin-top:10px;
+    margin-left:-35px;
+}
+#booker{
+    position: fixed;
+    margin-bottom: 150px;
+}
+#books{
+        position: absolute;
+    
+     
+    }
+
+    #books:before,
+    #books:after {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 105px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background : rgb(10, 1, 1);
+        -webkit-box-shadow: 0 15px 10px rgb(7, 0, 0);
+        -moz-box-shadow: 0 15px 10px rgb(10, 1, 1);
+        box-shadow: 0 15px 10px rgb(10, 1, 1);
+        -webkit-transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -o-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    #books:after {
+        -webkit-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+        right: 10px;
+        left: auto;
+    }
+
+    #sec-con{
+        background-color: dimgray;
+        font-family: 'Atilla ',sans-serif;
+        color:white;
+        height: auto;
+        width: 100%;
+        margin-top: 450px;
+         font-size: 4.5em;
+    }
+    
+    #challenge-text{
+        margin-left: 2em;
+     
+    }
+     h2{
+      padding:2rem 0rem;
+    }
+    .fb{
+        margin-left:390px;
+
+    }
+.fb li{
+    display:inline;
+    margin-right: 25px;
+    /* margin-bottom: -80px; */
+   
+}
+
+
+.list-inline li{
+    display: inline;
+    font-size: .3em;
+}
+.img-thumbnail{
+    margin-bottom: 80px;
+    width: 65%;
+    margin-left: 35%;
+}
+
+.img-fluid {
+    margin-right: 82px;
+}
+#sket{
+    margin-bottom: 15px;
+    padding-bottom: 150px;
+}

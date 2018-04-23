@@ -1,0 +1,100 @@
+
+    /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+
+    body {
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+.navbar-brand {
+    position: fixed;
+    top: 20px;
+    left: 29px;
+    z-index: 125;
+}
+    p,
+    a {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        font-family: Courier, monospace;
+        font-smoothing: antialiased;
+        margin: 0.8em 0;
+        font-size: 18px;
+        color: #B95;
+    }
+
+    .ghost,
+    .glitch {
+        opacity: 0.25;
+    }
+
+    #message {
+        margin-left: -300px;
+        margin-top: -130px;
+        position: absolute;
+        height: 260px;
+        width: 600px;
+        left: 50%;
+        top: 50%;
+    }
+
+    #animate {
+        text-shadow: 0 0 8px rgba(209, 194, 165, 0.1);
+        position: absolute;
+        color: #4f4228;
+        bottom: 0;
+    }
+
+    #container {
+        background: -moz-radial-gradient(50% 50%, ellipse, #20202D 0%, #101018 75%, #060612 100%); 
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    #container:before {
+        pointer-events: none;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        content: "";
+        left: 0;
+        top: 0;
+         }
+
+
+       .main-nav {
+           position: relative;
+           top: 20px;
+           left: 1160px;
+           z-index: 51;
+       }
+
+       .main-nav li {
+           font-family: 'Open Sans', sans-serif;
+           display: inline;
+           opacity: 0.5;
+           font-size: .95em;
+           color: #000000;
+           text-transform: uppercase;
+           /*border-right: solid 1px;*/
+           margin-right: 85px;
+       }
+
+       .main-nav a {
+           margin: 0px 15px 0px 15px;
+       }
+
+       .main-nav a:hover img {
+           transform: scale(1.5);
+           /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+       }
+
+       .main-nav img:hover {
+           /* color: #bbdff5; */
+           color: #ff0101;
+           font-size: 2em;
+           transition: all 500ms;
+           font-size-adjust: 20px;
+       }
