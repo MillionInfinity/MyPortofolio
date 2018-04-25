@@ -102,7 +102,7 @@
        
        .img-fluid {
            box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
-           margin-bottom: -10px;
+           margin-bottom: 210px;
            margin-top: 25px;
        }
 
@@ -119,11 +119,23 @@
            transform: scale(1.5);
          
        }
+      #yello a {
+          text-decoration-style: none;
+           color: white;
+       }
+       #yello img:hover{
+            transform: scale(1.5);
+       }
        #yello{
            position: relative;
            top:585px;
            margin-bottom: 15px;
            padding-left: 12px;
+           color: white;
+       }
+       #footer
+       {
+           margin-bottom: 105px;
        }
       
        @media all and (max-width:980px) {
@@ -131,9 +143,11 @@
               width: 135px;
                top: 490px;
                padding-left: 5px;
+                color: white;
            }
            #yello p{
              width: 50px;
+              color: white;
            }
            #yello img{
                display:none;
@@ -142,8 +156,9 @@
 @media only screen and (max-width: 406px) {
     #yello div{
         width: 30px;
-        top:-195px;
+        top:-235px;
         margin-bottom: -5px;
+         color: white;
     }
      #yello a {
          width: 50px;
