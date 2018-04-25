@@ -98,14 +98,43 @@
            transition: all 500ms;
            font-size-adjust: 20px;
        } */
-
+       .navbar-brand{
+            transition: 0.70s;
+            -webkit-transition: 0.70s;
+            -moz-transition: 0.70s;
+            -ms-transition: 0.70s;
+            -o-transition: 0.70s;
+            
+            /* display: block;
+            margin-right: auto;
+            margin-left: auto; */
+       }
+     .navbar-brand img:hover{
+          width: 300px;
+          height: 300px;
+        
+        transition: 0.70s;
+        -webkit-transition: 0.70s;
+        -moz-transition: 0.70s;
+        -ms-transition: 0.70s;
+        -o-transition: 0.70s;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+     }
        
        .img-fluid {
            box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
            margin-bottom: 210px;
            margin-top: 25px;
        }
-
+     .img-fluid:hover{
+         	-webkit-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+     }
        #mnav {
            background-color: #df5127;
            box-shadow: 0 0 20px 0 #4f2518;
@@ -127,22 +156,26 @@
             transform: scale(1.5);
        }
        #yello{
-           position: relative;
-           top:585px;
-           margin-bottom: 15px;
-           padding-left: 12px;
+           position: absolute;
+           top:350px;
+           margin-bottom: -25px;
+           padding-left: -22px;
            color: white;
+          
        }
+       /* #yello img{
+       width:70px;
+       } */
        #footer
        {
            margin-bottom: 105px;
        }
-      
-       @media all and (max-width:980px) {
+ 
+       @media all and (max-width:960px) {
            #yello {
               width: 135px;
-               top: 490px;
-               padding-left: 5px;
+               top: 1180px;
+               padding-left: -15px;
                 color: white;
            }
            #yello p{
@@ -150,22 +183,29 @@
               color: white;
            }
            #yello img{
-               display:none;
+               /* display:none; */
             }
        }  
-@media only screen and (max-width: 406px) {
+@media screen and (max-width: 377px) {
     #yello div{
         width: 30px;
-        top:-235px;
-        margin-bottom: -5px;
+        top:-1020px;
+        margin-bottom: -15px;
          color: white;
     }
      #yello a {
          width: 50px;
      }
          #yello img {
-              display:none; 
+       
              }
        }  
 
+#gradient {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+}
+      
 
